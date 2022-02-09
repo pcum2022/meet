@@ -20,13 +20,34 @@
       {
       font-family:Verdana;
       }
+      .container
+      {
+         position: relative;
+         text-align: center;
+      }
+      .block{
+         color: white;
+         background-color: rgba(52, 27, 43, 0.75);
+         position: absolute;
+         top: 80px;
+         left: 95px;
+         width: 80%;
+         padding-left: 20px;
+         padding-right: 20px;
+      }
    </style>
    <body>
       <!--- Banner --->
       <table border="0" width="80%" cellpadding="50" align="center">
          <tr>
             <td style="vertical-align:middle">
-               <p style="font-size:30px" align="center"><b>Pencil Code User Meeting 2022</b></p>
+               <div class="container">
+                  <img src="banner.png" alt="banner" width="1140">
+                  <div class="block">
+                     <h1 align="center">Pencil Code User Meeting 2022</h1>
+                     <p align="center">18th Annual Meeting for Pencil Code Developers and Users</p>
+                  </div>
+               </div>
             </td>
          </tr>
       </table>
